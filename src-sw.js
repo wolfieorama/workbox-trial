@@ -26,17 +26,4 @@ workbox.routing.registerRoute(
     })
   );
 
-workbox.precaching.precacheAndRoute([
-  {
-    "url": "css/main.css",
-    "revision": "260f65e3e7c2fa6952ac9131086d0030"
-  },
-  {
-    "url": "index.html",
-    "revision": "cbf11e2c25fc41670624895aeeb33f92"
-  },
-  {
-    "url": "js/app.js",
-    "revision": "69faedc2b7d68011e0e3286c5aecebbe"
-  }
-]);
+workbox.precaching.precacheAndRoute([]);
